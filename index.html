@@ -24,43 +24,32 @@
             padding: 40px 20px;
         }
 
-        /* Header */
         .header {
             text-align: center;
             padding: 60px 20px;
         }
 
         .logo {
-            width: 100px;
-            height: 100px;
+            width: 140px;
+            height: 140px;
             background: white;
-            border-radius: 25px;
+            border-radius: 35px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
         }
 
         .logo img {
-            width: 80px;
-            height: 80px;
-        }
-
-        h1 {
-            font-size: 48px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #fff 0%, #e0d4ff 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            width: 100px;
+            height: 100px;
         }
 
         .tagline {
-            font-size: 20px;
+            font-size: 22px;
             opacity: 0.9;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .badge {
@@ -72,7 +61,6 @@
             margin-top: 20px;
         }
 
-        /* Google Play Button */
         .play-store-btn {
             margin: 30px 0;
         }
@@ -87,11 +75,10 @@
         }
 
         .play-store-btn img {
-            height: 70px;
+            height: 75px;
             width: auto;
         }
 
-        /* Features Grid */
         .features {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -126,7 +113,6 @@
             font-size: 15px;
         }
 
-        /* Screenshot */
         .screenshot {
             text-align: center;
             margin: 60px 0;
@@ -139,7 +125,6 @@
             border: 1px solid rgba(255,255,255,0.2);
         }
 
-        /* Links Section */
         .links-section {
             background: rgba(0,0,0,0.2);
             border-radius: 20px;
@@ -175,7 +160,6 @@
             transform: translateY(-2px);
         }
 
-        /* Footer */
         .footer {
             text-align: center;
             padding: 40px 20px;
@@ -195,27 +179,27 @@
         }
 
         @media (max-width: 768px) {
-            h1 { font-size: 32px; }
-            .tagline { font-size: 16px; }
-            .play-store-btn img { height: 50px; }
+            .tagline { font-size: 18px; }
+            .play-store-btn img { height: 55px; }
+            .logo { width: 100px; height: 100px; }
+            .logo img { width: 70px; height: 70px; }
             .container { padding: 20px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <div class="header">
             <div class="logo">
                 <img src="images/Logo%20RAI%20512.png" alt="RAI Logo">
             </div>
-            <h1>RAI</h1>
+            
             <p class="tagline">Smart Receipt Scanner & Expense Tracker</p>
+            
             <div class="badge">
                 📱 Available on Google Play
             </div>
 
-            <!-- LOGO GOOGLE PLAY CLIQUABLE -->
             <div class="play-store-btn">
                 <a href="https://play.google.com/store/apps/details?id=com.rai.mobile" target="_blank">
                     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
@@ -224,7 +208,6 @@
             </div>
         </div>
 
-        <!-- Features -->
         <div class="features">
             <div class="feature-card">
                 <div class="feature-icon">📸</div>
@@ -258,12 +241,10 @@
             </div>
         </div>
 
-        <!-- Screenshot -->
         <div class="screenshot">
             <img src="images/presentation1024.png" alt="RAI App Screenshot">
         </div>
 
-        <!-- Links -->
         <div class="links-section">
             <h2>📋 Legal & Support</h2>
             <div class="link-buttons">
@@ -273,7 +254,6 @@
             </div>
         </div>
 
-        <!-- Footer -->
         <div class="footer">
             <p>&copy; 2026 RAI - Receipt & Expense Manager. All rights reserved.</p>
             <p style="margin-top: 10px;">
