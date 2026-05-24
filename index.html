@@ -72,6 +72,25 @@
             margin-top: 20px;
         }
 
+        /* Google Play Button */
+        .play-store-btn {
+            margin: 30px 0;
+        }
+
+        .play-store-btn a {
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .play-store-btn a:hover {
+            transform: scale(1.05);
+        }
+
+        .play-store-btn img {
+            height: 70px;
+            width: auto;
+        }
+
         /* Features Grid */
         .features {
             display: grid;
@@ -178,6 +197,7 @@
         @media (max-width: 768px) {
             h1 { font-size: 32px; }
             .tagline { font-size: 16px; }
+            .play-store-btn img { height: 50px; }
             .container { padding: 20px; }
         }
     </style>
@@ -193,6 +213,14 @@
             <p class="tagline">Smart Receipt Scanner & Expense Tracker</p>
             <div class="badge">
                 📱 Available on Google Play
+            </div>
+
+            <!-- LOGO GOOGLE PLAY CLIQUABLE -->
+            <div class="play-store-btn">
+                <a href="https://play.google.com/store/apps/details?id=com.rai.mobile" target="_blank">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                         alt="Get it on Google Play">
+                </a>
             </div>
         </div>
 
